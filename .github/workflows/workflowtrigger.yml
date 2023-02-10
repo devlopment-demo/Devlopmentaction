@@ -1,7 +1,7 @@
 name: run the workflow
 on:
   repository_dispatch:
-    types: [my-event,push,commit]
+    types: my-event
 jobs:
   build:
     name: run-workflow
